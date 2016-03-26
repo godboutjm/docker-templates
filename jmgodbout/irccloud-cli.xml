@@ -17,7 +17,6 @@
   <Repository>jmgodbout/centos-irccloud-cli</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  </Environment>
   <Data>
     <Volume>
       <HostDir>path to config</HostDir>
