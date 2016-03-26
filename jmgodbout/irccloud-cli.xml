@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+<Category>Network:Messenger</Category>
+  <Name>jmgodbout-irccloud-cli</Name>
+  <Description>
+    irccloud-cli is a console-based client for irccloud[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/app[/b] This is where irccloud-cli will get it's configuration file.[br]
+  </Description>
+  <Overview>
+    irccloud-cli is a console-based client for irccloud.
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/jmgodbout/centos-irccloud-cli/</Registry>
+  <GitHub>https://github.com/godboutjm/centos-irccloud-cli</GitHub>
+  <Repository>jmgodbout/centos-irccloud-cli</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/app</ContainerDir>
+      <Mode>r</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://raw.githubusercontent.com/godboutjm/docker-templates/master/jmgodbout/images/irccloud-cli-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/godboutjm/docker-templates/master/jmgodbout/images/irccloud-cli-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
