@@ -1,6 +1,6 @@
 
 Docker template repository for unRAID
-#### Application
+#### Description
 unRAID Docker templates for Docker images in the "jmgodbout" repository.
 
 #### Usage
