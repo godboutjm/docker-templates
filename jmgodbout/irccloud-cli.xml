@@ -7,6 +7,15 @@
     irccloud-cli is a console-based client for irccloud[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/app[/b] This is where irccloud-cli will get it's configuration file.[br]
+    There must be a configuration file there named 'config.json'
+    ```
+    {
+        "host": "https://www.irccloud.com",
+        "email": "jmgodbout@gmail.com",
+        "password": "cu7tdSRzW_VMSNH5pSNBwxpgxUiKt75nRsa-grUU"
+    }
+    ```
+
   </Description>
   <Overview>
     irccloud-cli is a console-based client for irccloud.
